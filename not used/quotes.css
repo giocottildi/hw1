@@ -1,0 +1,41 @@
+#quote-container
+{
+    /*background-color: rgb(43, 0, 255);*/
+    background-color: rgb(56, 147, 147);
+
+    width: 50%;
+    margin: 0 25%;
+}
+#quote-introduction
+{
+    text-align: center;
+    padding: 5px;
+}
+#quote-introduction h1
+{
+    font-size:  20px;
+}
+/*
+#effective-quote
+{
+}
+*/
+#random-quote
+{
+    border: 2px solid transparent;
+}
+
+
+#random-quote h1
+{
+    text-align: left;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+    background-color: rgb(42, 207, 207, 0.7);
+    color: rgb(0, 0, 0);
+    border-width: 4px;
+    border-color: red;
+    border-style: outset;
+}
