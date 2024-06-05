@@ -1,0 +1,96 @@
+body
+{
+    min-height: 100%;
+    background-color: rgb(129, 129, 245);
+
+}
+h1
+{
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+.libri
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 30%;
+    background-color: rgb(34, 34, 121);
+    padding: 10px;
+    border-radius: 8px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.libri:hover
+{
+    background-color: rgb(54, 54, 254);
+}
+.libri img
+{
+    margin-top: 15px;
+    
+    max-height: 250px;
+
+}
+.libri h1
+{
+    font-size: 18px;
+}
+
+.selected{
+    position: fixed;
+    width: 50%;
+    height: auto;
+    z-index: 10;
+    left: 25%;
+    top: 25%;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+  }
+  
+  .unselected{
+    height: 50%;
+  }
+  
+.img-selected{
+    width: 80%;
+    max-width: 260px;
+  }
+  .img-salva
+  {
+    cursor: pointer; /*manina quando passo di sopra*/
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-right: 0%;
+  }
+
+#search-input
+{
+  width: 50%;
+  margin-left: 25%;
+  padding: 16px 14px 18px;
+border: 2px solid #070a21;
+border-radius: 50px;
+font-size: 16px;
+}
+#search-input:focus
+{
+  outline: none;
+}
+#submit
+{
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+}

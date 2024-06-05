@@ -1,0 +1,133 @@
+#page-lista
+{
+    
+    background-image: url(img/background_lista.jpg); 
+    background-size: cover;
+}
+
+#titolo
+{
+    font-size: 35px;
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+#lista-form
+{
+    margin-top: 35px;
+    /*background-color: #6083ff44;*/
+}
+.lista
+{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.flex-campo
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 92);
+    font-weight: bold;
+    font-size: 20px;
+}
+.flex-campo .campi-uscita
+{
+    text-align: center;
+}
+.flex-campo .campi-uscita-titolo
+{
+    width: 25%;
+}
+  
+.lista .titolo-uscita 
+{
+    width: 25%;
+    
+}
+
+.lista .uscita-opzioni 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+#submit-lista
+{
+    margin-left: 85%;
+    margin-top: 155px;
+    margin-bottom: 120px;
+    border: 0px;
+    font-size: 15px;
+    height: 50px;
+    width: 12%;
+}
+.hidden
+{
+    display: none;
+}
+#tripla-lista
+{
+    background-color: aquamarine;
+}
+#triplo-flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#libri-letti
+{
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background-image: url(img/libri_letti.jpg);
+    background-size: cover;
+    font-weight: 200;
+    width: 28%;
+    height: 500px;
+}
+#libri-non-letti
+{
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background-image: url(img/libri_non_letti.jpg);
+    background-size: cover;
+    font-weight: 200;
+    width: 28%;
+    height: 500px;
+}
+#libri-non-ricordo
+{
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background-image: url(img/sherlock_things4.jpeg);
+    background-size: cover;
+    font-weight: 200;
+    width: 28%;
+    height: 500px;
+}
+.info-lista
+{
+    text-align: center;
+}
+#libri-letti p, #libri-non-letti p, #libri-da-leggere p
+{
+    margin-left: 10%;
+}
+.error
+{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 65%;
+}
